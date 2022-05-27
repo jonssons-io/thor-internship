@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Crash Course</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a href="/index.html">Hem</a>
+				</li>
+				<li>
+					<a href="/html.html" class="current-link">HTML & CSS</a>
+				</li>
+				<li>
+					<a href="/setup.html">Setup</a>
+				</li>
+				<li>
+					<a href="/projekt.html">Projekt</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="main-content-container">
+			<h1>HTML - Hemsidans skelett</h1>
+            <ol>
+                <li>Titta på videorna i denna spellista: <a href="https://www.youtube.com/watch?v=8Xp413bo2j4&list=PLuc3JXzcNTZSYxj8Q32SIbR7wt7fgi7of" />HTML & CSS - Grunder</a></li>
+                <li>Skapa ett HTML dokument i VS Code som du döper till <code>index.html</code></li>
+                <li>Lägg in alla nödvändiga grundtaggar som du lärt dig i första videon.</li>
+                <ul style="list-style: square inside;">
+                    <li><code>&lt!DOCTYPE html&gt</code> som berättar att dokumentet är av typen HTML5</li>
+                    <li><code>&lthtml&gt</code> som berättar för webbläsaren var html koden börjar och slutar. Glöm inte språkattributet <code>lang</code> och sluttaggen.</li>
+                    <li><code>&lthead&gt</code> som innehåller information som oftast inte syns på hemsidan, men som ändå behövs. Glöm inte sluttaggen.</li>
+                    <li><code>&ltmeta&gt</code> som är en tagg för att markera meta-information, t.ex. vilken teckenuppsättning man använder (attributet <code>charset</code>).</li>
+                    <li><code>&lttitle&gt</code> som innehåller det som står längst upp i tabben, det vill säga namnet på sidan. Glöm inte sluttaggen.</li>
+                    <li><code>&ltbody&gt</code> som markerar innehållet på sidan, det vill säga det som besökaren kommer att se. Glöm inte sluttaggen.</li>
+                </ul>
+                <li>Testa lägga in olika taggar innanför <code>&ltbody&gt</code> och se vad som händer. Lägg till minst 3 olika taggar.</li>
+            </ol>
+		</div>
+	</body>
+</html>

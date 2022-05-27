@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:ital,wght@0,400;0,500;1,400&family=Poppins:wght@400;700&family=VT323&display=swap');
+
+* {
+	box-sizing: border-box;
+	background-color: #313131;
+}
+
+body {
+	margin: 1rem 3rem;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: rgb(218, 218, 218);
+	letter-spacing: 0.1em;
+}
+
+p,
+span,
+li,
+a {
+	text-decoration: none;
+	font-family: 'Martel', serif;
+	color: rgb(218, 218, 218);
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+a {
+	color: #63eba0;
+}
+
+code {
+	color: rgb(231, 74, 74);
+	font-size: 1.2rem;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav {
+	height: 2.5rem;
+}
+
+nav > ul {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 1em;
+	align-items: center;
+	height: 100%;
+}
+
+nav > ul > li {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+nav > ul > li > a {
+	font-family: 'VT323', monospace;
+	font-size: 2rem;
+	margin-right: 1.5rem;
+}
+
+.current-link {
+	margin-top: 1rem;
+	padding-top: 0.5rem;
+	border-top: 2px solid #4aac76;
+}
+
+.main-content-container {
+	margin-top: 5rem;
+}
